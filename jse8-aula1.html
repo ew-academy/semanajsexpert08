@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style-337ecafac1.css" />
     <!-- custom -->
     <link rel="stylesheet" href="custom/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -23,85 +24,6 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MPZTR92T');</script>
     <!-- End Google Tag Manager -->
-<style type="text/css">
-    .isDisabled {
-  color: currentColor;
-  opacity: 0.7;
-  text-decoration: none;
-  pointer-events: none;
-}
-#apostila{
-    background:#131313 url('./assets/jshub.png') no-repeat;
-    background-size:200px;
-    border-color:#131313;
-    color:white;
-    background-position: left;
-    background-position-x: 70px;
-}
-
-.text{
-    font-family: 'Space Grotesk', sans-serif;
-    line-height: 18px !important;
-    font-weight: 400;
-}
-
-body{
-    font-family: 'Inter', sans-serif;
-}
-
-mark{
-    background-color: #FF9000;
-}
-
-.logo-top{
-    margin-top: -50px;
-    margin-bottom: 30px;
-}
-
-.blue-button {
-  background-color: #7289da;
-  border: 2px solid #7289da;
-  color: #fff;
-}
-.blue-button:hover{
-    color: white;
-    transform: translateY(1px);
-}
-
-@media screen and (max-width: 990px) {
-    
-    #apostila{background: #131313;
-    
-    }
-    mark{
-    background-color: transparent;
-    color:whitesmoke;
-    }
-    .logo-top{
-    margin-top: 15px;
-    margin-bottom: -10px;
-}
-}
-
-.aula-title-a{
-    opacity: #dbdbdb;
-    font-weight: 800 !important;
-    line-height: 25px;
-}
-.-video-thumb{
-    opacity: 80%;
-}
-
-.-free{
-    opacity: 100%;
-}
-
-.disable{
-    pointer-events: none;
-}
-
-</style>
-
 </head>
 <body>
     <main>
@@ -113,7 +35,7 @@ mark{
                 <div class="container">
                     <div class="row">
                         <div class="col-4">
-                            <a href="./jse8-aula1.html" class="card -video-thumb -active -free">
+                            <a href="./jse8-aula1" class="card -video-thumb -active -free">
                                 <div class="image" style="background-image: url('./assets/video1-on.jpg');"></div>
                                 <header class="caption">
                                     <h4 class="title aula-title-a"><mark class="-active">AULA 1 - Liberada</mark></h4>
@@ -158,15 +80,28 @@ mark{
                         </div>
                     </div>
                     <div class="alert alert-primary" id="apostila">
-                        <h4><strong>Baixe o projeto da Semana JS Expert</strong></h4> <a style="color:#FF9000" target="_blank" href="https://l.erickwendel.com.br/jse8-projeto">[ APERTE AQUI PARA BAIXAR ]</a>
+                        <div style="max-width: 800px;display: flex;text-align: left;">
+                        <div class="block-ico"><img style="max-width: 200px;" src="./assets/jshub.png"></div>
+                            <div class="block-content">
+                                <h4 style="margin-bottom: 15px;font-size: 22px;"><strong>Baixe o projeto da Semana JS Expert</strong></h4> 
+                                <a class="block-bt" target="_blank" href="https://l.erickwendel.com.br/jse8-projeto">APERTE AQUI PARA BAIXAR</a>
                         </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-primary" id="discord">
+                        <div style="max-width: 800px;display: flex;text-align: left;">
+                        <div class="block-ico"><img style="max-width: 80px;" src="./assets/discord.png"></div>
+                            <div class="block-content">
+                                <h4 style="margin-bottom: 15px;font-size: 22px"><strong>Participe! Deixe seu comentário na Comunidade!</strong></h4> 
+                            <a class="block-discord-bt" target="_blank" href="https://l.erickwendel.com.br/jse8-discord">QUERO ENTRAR NA COMUNIDADE</a>
+                        </div>
+                        </div>
+                    </div>
             </div>
             <!--<br>
             <div class="col-10 offset-1">
                 <h4 class="text-center" ><b>Participe da Comunidade da Semana JS Expert</b></h4>
             </div>-->
-         <a href="https://l.erickwendel.com.br/jse8-discord
-" target="_blank" class="btn btn-lg blue-button p-3 mt-3">Participe da Comunidade do Discord da Semana JS Expert</a>
         <!--</section>
 
             </header>
