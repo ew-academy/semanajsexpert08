@@ -20,6 +20,23 @@ mark{
     background-color: #FF9000;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 90%;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .logo-top{
     margin-top: -50px;
     margin-bottom: 30px;
@@ -54,14 +71,7 @@ mark{
     pointer-events: none;
 }
 
-#discord{
-    background-color: #7289da;
-    border-color:#899ee9;
-    color:white;
-    display: flex;
-    justify-content: center;
-
-}#apostila{
+#apostila{
     background:#131313;
     border-color:#131313;
     color:white;
@@ -82,7 +92,16 @@ mark{
     width: 600px;
 }
 
-.block-discord-bt{
+/* BANNER DISCORD */
+
+#discord{
+    background-color: #7289da;
+    border-color:#899ee9;
+    color:white;
+    display: flex;
+    justify-content: center;
+
+}.block-discord-bt{
     background-color: white;
     padding:8px;
     border: 5px;
@@ -97,6 +116,40 @@ mark{
     opacity: 90%;
 }
 
+/* BANNER WHATSAPP */
+
+#whatsapp{
+    background-color: #25D366;
+    border-color:#128C7E;
+    color:white;
+    display: flex;
+    justify-content: center;
+
+}.block-whatsapp-bt{
+    background-color: #04DA00;
+    padding:8px;
+    border: 5px;
+    border-color: #37fe33;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}.block-whatsapp-bt:hover{
+    background-color: rgb(50, 205, 48);
+    color: white;
+    opacity: 90%;
+    text-decoration: none !important;
+}
+
+.important-banner{
+    border: solid #11883d !important;
+    border-radius: 8px;
+}
+
+/* BANNER NORMAL */
+
 .block-bt{
     background-color: #FF9000;
     padding:8px;
@@ -109,6 +162,7 @@ mark{
     font-size: 18px;
 }.block-bt:hover{
     color: white;
+    opacity:90%;
 }
 
 @media screen and (max-width: 990px) {
